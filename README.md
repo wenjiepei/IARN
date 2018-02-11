@@ -9,5 +9,14 @@ The code is implemented in Lua and Torch. It contains mainly the following parts
 * run_script.lua: another starting point of the entire code, which is script to run a batch of experiments together.
 * train_process.lua: the training process.
 * evaluate_process.lua: the evaluation process. 
-* package 'model' contains the required models including attention model, TAGM, LSTM, GRU and plain-RNN. 
+* package 'model' contains the required models including IARN, TAGM, LSTM, GRU and plain-RNN and so on. 
 * package 'util' contains the required small utilities such as data loader. 
+
+
+The prepared data is loaded by 'util/data_loader.lua'. Typically, the data should be preared in a three files:
+* training_item_time_series.t7: a table of training time series for item.
+* training_user_time_series.t7: a table of training time series for user.
+* training_rating.t7: a N*3 matrix which contains the <uesr_index, item_index, rating>
+* test_rating.t7: a N*3 matrix which contains the <uesr_index, item_index, rating>
+
+
