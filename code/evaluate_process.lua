@@ -108,11 +108,13 @@ function evaluate_process.extract_all_hidden_representation_IARN(model, loader, 
   --- for user
   local user_hidden = {}
   local user_summary = torch.Tensor(#loader.user_X, 2*opt.rnn_size)
+  if opt.gpuid >= 0 then user_summary = user_summary:cuda() end
   for i = 1, #loader.user_X do
     local hidden_v, hidden_summary
     if loader.remove_user_ind:eq(i):sum() >0 then
       hidden_v = {}
       hidden_summary = torch.zeros(2*opt.rnn_size)
+      if opt.gpuid >= 0 then hidden_summary = hidden_summary:cuda() end
     else
       local type = 'user'
       local input_x = loader.user_X[i]
@@ -128,12 +130,14 @@ function evaluate_process.extract_all_hidden_representation_IARN(model, loader, 
   --- for item
   local item_hidden = {}
   local item_summary = torch.Tensor(#loader.item_X, 2*opt.rnn_size)
+  if opt.gpuid >= 0 then item_summary = item_summary:cuda() end
   local cate_item_x_set = {}
   for i = 1, #loader.item_X do
     local hidden_v, hidden_summary, cate_item_x
     if loader.remove_item_ind:eq(i):sum() >0 then
       hidden_v = {}
       hidden_summary = torch.zeros(2*opt.rnn_size)
+      if opt.gpuid >= 0 then hidden_summary = hidden_summary:cuda() end
     else
       local type = 'item'
       local input_x = loader.item_X[i]
@@ -190,9 +194,11 @@ local function extract_hidden_representation_normal(model, type, input_x, opt, c
     if opt.user_module == 'TAGM' then
       hidden_z_value, hidden_summary = user_attention:forward(input_x, opt, 'test')
       hidden_summary = torch.zeros(1)
+      if opt.gpuid >= 0 then hidden_summary = hidden_summary:cuda() end
       att_weights = user_att_weight_net:forward(hidden_z_value, hidden_summary)
     else
       att_weights = torch.ones(x_length)
+      if opt.gpuid >= 0 then att_weights = att_weights:cuda() end
     end
     -- perform the forward for the rnn
     rnn_hidden = rnn_user:forward(input_x, att_weights, opt, 'test')
@@ -211,9 +217,11 @@ local function extract_hidden_representation_normal(model, type, input_x, opt, c
     if opt.item_module == 'TAGM' then
       hidden_z_value, hidden_summary = item_attention:forward(cate_item_x, opt, 'test')
       hidden_summary = torch.zeros(1)
+      if opt.gpuid >= 0 then hidden_summary = hidden_summary:cuda() end
       att_weights = item_att_weight_net:forward(hidden_z_value, hidden_summary)
     else
       att_weights = torch.ones(x_length)
+      if opt.gpuid >= 0 then att_weights = att_weights:cuda() end
     end
     -- perform the forward for the rnn
     rnn_hidden = rnn_item:forward(cate_item_x, att_weights, opt, 'test')
@@ -231,10 +239,12 @@ function evaluate_process.extract_all_hidden_representation_normal(model, loader
   if file_exists(savefile) then return end
   --- for user
   local user_hidden = torch.Tensor(#loader.user_X, opt.rnn_size)
+  if opt.gpuid >= 0 then user_hidden = user_hidden:cuda() end
   for i = 1, #loader.user_X do
     local hidden_v
     if loader.remove_user_ind:eq(i):sum() >0 then
       hidden_v = torch.zeros(opt.rnn_size)
+      if opt.gpuid >= 0 then hidden_v = hidden_v:cuda() end
     else
       local type = 'user'
       local input_x = loader.user_X[i]
@@ -248,10 +258,12 @@ function evaluate_process.extract_all_hidden_representation_normal(model, loader
   print('user hidden representation finished!')
   --- for item
   local item_hidden = torch.Tensor(#loader.item_X, opt.rnn_size)
+  if opt.gpuid >= 0 then item_hidden = item_hidden:cuda() end
   for i = 1, #loader.item_X do
     local hidden_v
     if loader.remove_item_ind:eq(i):sum() >0 then
       hidden_v = torch.zeros(opt.rnn_size)
+      if opt.gpuid >= 0 then hidden_v = hidden_v:cuda() end
     else
       local type = 'item'
       local input_x = loader.item_X[i]
@@ -360,6 +372,7 @@ local function calcuate_NDCG_AUC(opt, loader, model)
     test_user_index = all_index[dd[opt.data_set]]
   end
   test_user_reverse_index = torch.zeros(#loader.user_X):fill(-5)
+  if opt.gpuid >= 0 then test_user_reverse_index = test_user_reverse_index:cuda() end
   local new_test_user_index = {}
   local indtemp = 0
   for i = 1, test_user_index:size(1) do
@@ -406,6 +419,7 @@ local function calcuate_NDCG_AUC(opt, loader, model)
   
   -- and the groundtruth
   local groundt = torch.zeros(test_user_index:size(1), test_item_index:size(1))
+  if opt.gpuid >= 0 then groundt = groundt:cuda() end
   for i = 1,loader.test_pairs:size(1) do
     local us = loader.test_pairs[i][1]
     us = test_user_reverse_index[us+1]
@@ -442,6 +456,7 @@ local function calcuate_NDCG_AUC(opt, loader, model)
     local savefile = string.format('%s/pair_IARN_product_dropout_%1.2f_negative_%d.t7', opt.current_result_dir, opt.dropout, opt.if_negative)
     if not file_exists(savefile) then 
       mm_p = torch.zeros(test_user_index:nElement(), test_item_index:nElement())
+      if opt.gpuid >= 0 then mm_p = mm_p:cuda() end
       local indd = 0
       print('begin to calculate dot product for all pairs with IARN-IARN...')
       local total_n = test_user_index:size(1) * test_item_index:size(1)
@@ -488,6 +503,10 @@ local function calcuate_NDCG_AUC(opt, loader, model)
   print('time of computing paired scores: ', times)
   
   local sort_p, sort_ind = torch.sort(mm_p, 2, true)
+  if opt.gpuid >= 0 then
+     sort_p = sort_p:cuda()
+     sort_ind = sort_ind:cuda() 
+  end
   local time_e2 = timer:time().real
   print('time of sorting: ', time_e2-time_e) 
   local function NDCG_AUC(i, top_k)
@@ -495,6 +514,10 @@ local function calcuate_NDCG_AUC(opt, loader, model)
     local dcg = 0
     local precision = torch.zeros(#top_k)
     local recall = torch.zeros(#top_k)
+    if opt.gpuid >= 0 then
+     precision = precision:cuda()
+     recall = recall:cuda() 
+    end
     local sort_i = sort_ind[i]
 --    print('sort_mm', mm_p[i]:index(1, sort_i):sub(1,200))
     local temp = groundt[i]:index(1, sort_i)
@@ -506,6 +529,9 @@ local function calcuate_NDCG_AUC(opt, loader, model)
     local hits = 0
     local mean_average_precision = 0
     local pn = torch.sum(sort_g:eq(1))
+    if opt.gpuid >= 0 then
+     pn = pn:cuda() 
+    end
     for k = 1, sort_g:nElement() do
       if sort_g[k] > 0 then
         dcg = dcg + 1 / (math.log(k+1)/math.log(2))
@@ -556,6 +582,13 @@ local function calcuate_NDCG_AUC(opt, loader, model)
   local user_recall = torch.Tensor(test_user_index:size(1), #top_k)
   local user_AUC = torch.Tensor(test_user_index:size(1))
   local user_map = torch.Tensor(test_user_index:size(1))
+  if opt.gpuid >= 0 then
+    user_NDCG = user_NDCG:cuda()
+    user_precision = user_precision:cuda()
+    user_recall = user_precision:cuda()
+    user_AUC = user_AUC:cuda()
+    user_map = user_map:cuda()
+  end
   for i = 1, test_user_index:size(1) do
     user_NDCG[i], user_precision[i], user_recall[i], user_AUC[i], user_map[i] = NDCG_AUC(i, top_k)
   end  
@@ -637,6 +670,10 @@ local function inference(model, user_x, item_x, true_y, opt, category, data_pair
     else
       user_att_weights = torch.ones(user_length)
       item_att_weights = torch.ones(item_length)
+      if opt.gpuid >= 0 then
+       user_att_weights = user_att_weights:cuda()
+       item_att_weights = item_att_weights:cuda()
+      end
     end
 
   -- perform the forward for the rnn_user
@@ -646,6 +683,7 @@ local function inference(model, user_x, item_x, true_y, opt, category, data_pair
   local rnn_net_output = top_net:forward({user_hidden, item_hidden})
   -- perform the forward for the MF
   local one = torch.ones(1)
+  if opt.gpuid >= 0 then one = one:cuda() end
   local MF_output = MF_net:forward({one, one:clone()})
   -- perform the forward for the bias term
   local bias_out = 0
@@ -697,6 +735,7 @@ local function evaluation_set_performance(opt, model, data_pairs, true_labels, i
   local cc = 1
   local all_attention_weights = {}
   local predictions = torch.zeros(data_size) 
+  if opt.gpuid >= 0 then predictions = predictions:cuda() end
   local user_weights = {}
   local item_weights = {}
     
