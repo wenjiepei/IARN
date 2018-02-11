@@ -20,5 +20,6 @@ The prepared data is loaded by 'util/data_loader.lua'. Typically, the data shoul
 * test_rating.t7: a N*3 matrix which contains N test sample, each sample is composed of a tuple: the <uesr_index, item_index, rating>
 
 To run the code, you can set the dataset, the backbone model used, for instance:  
-th main.lua -data_set 'Home' -model_type 'IARN'
+<p> th main.lua -data_set 'Home' -model_type 'IARN' <p>
 
+Since the model has to perform forward and backward processes step by step for sequences, hence the code cannot benefit from the parallel computing of GPU. It turns out that a good CPU can run even faster than a good GPU. 
