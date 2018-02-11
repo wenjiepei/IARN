@@ -1,0 +1,938 @@
+better times: 0
+learning rate: 0.001
+100/546518 (epoch 0.037) 
+average loss in the last 100 (    1 --   100) iterations = 2.39543379 
+validation set loss = 1.37830397, validation accuracy= 1.17271417
+elasped time in the last 6400 iterations: 443.5751s,    total elasped time: 443.5752s
+
+better times: 0
+learning rate: 0.001
+200/546518 (epoch 0.073) 
+average loss in the last 100 (  101 --   200) iterations = 1.44255521 
+validation set loss = 1.23534243, validation accuracy= 1.11045392
+elasped time in the last 6400 iterations: 426.1719s,    total elasped time: 869.7471s
+
+better times: 1
+learning rate: 0.001
+300/546518 (epoch 0.110) 
+average loss in the last 100 (  201 --   300) iterations = 1.43246678 
+validation set loss = 1.25763100, validation accuracy= 1.12121933
+elasped time in the last 6400 iterations: 412.6805s,    total elasped time: 1282.4276s
+
+better times: 2
+learning rate: 0.001
+400/546518 (epoch 0.146) 
+average loss in the last 100 (  301 --   400) iterations = 1.33712968 
+validation set loss = 1.44957951, validation accuracy= 1.20395302
+elasped time in the last 6400 iterations: 410.8885s,    total elasped time: 1693.3161s
+
+better times: 0
+learning rate: 0.001
+500/546518 (epoch 0.183) 
+average loss in the last 100 (  401 --   500) iterations = 1.29601605 
+validation set loss = 1.22076436, validation accuracy= 1.10460975
+elasped time in the last 6400 iterations: 416.7967s,    total elasped time: 2110.1128s
+
+better times: 1
+learning rate: 0.001
+600/546518 (epoch 0.220) 
+average loss in the last 100 (  501 --   600) iterations = 1.32632062 
+validation set loss = 1.56888013, validation accuracy= 1.25254945
+elasped time in the last 6400 iterations: 417.8171s,    total elasped time: 2527.9299s
+
+better times: 2
+learning rate: 0.001
+700/546518 (epoch 0.256) 
+average loss in the last 100 (  601 --   700) iterations = 1.35840533 
+validation set loss = 1.36850660, validation accuracy= 1.16983187
+elasped time in the last 6400 iterations: 411.1099s,    total elasped time: 2939.0398s
+
+better times: 3
+learning rate: 0.001
+800/546518 (epoch 0.293) 
+average loss in the last 100 (  701 --   800) iterations = 1.30175199 
+validation set loss = 1.38753597, validation accuracy= 1.17793717
+elasped time in the last 6400 iterations: 410.0676s,    total elasped time: 3349.1075s
+
+better times: 4
+learning rate: 0.001
+900/546518 (epoch 0.329) 
+average loss in the last 100 (  801 --   900) iterations = 1.28130176 
+validation set loss = 1.45190129, validation accuracy= 1.20494867
+elasped time in the last 6400 iterations: 398.9142s,    total elasped time: 3748.0217s
+
+better times: 0
+learning rate: 0.001
+1000/546518 (epoch 0.366) 
+average loss in the last 100 (  901 --  1000) iterations = 1.25363058 
+validation set loss = 1.21619771, validation accuracy= 1.10281354
+elasped time in the last 6400 iterations: 444.1667s,    total elasped time: 4192.1884s
+
+better times: 1
+learning rate: 0.001
+1100/546518 (epoch 0.403) 
+average loss in the last 100 ( 1001 --  1100) iterations = 1.28121491 
+validation set loss = 1.24472288, validation accuracy= 1.11567149
+elasped time in the last 6400 iterations: 428.6563s,    total elasped time: 4620.8446s
+
+better times: 0
+learning rate: 0.001
+1200/546518 (epoch 0.439) 
+average loss in the last 100 ( 1101 --  1200) iterations = 1.26672073 
+validation set loss = 1.21617145, validation accuracy= 1.10230849
+elasped time in the last 6400 iterations: 445.4828s,    total elasped time: 5066.3274s
+
+better times: 0
+learning rate: 0.001
+1300/546518 (epoch 0.476) 
+average loss in the last 100 ( 1201 --  1300) iterations = 1.28237487 
+validation set loss = 1.20020823, validation accuracy= 1.09532212
+elasped time in the last 6400 iterations: 428.7133s,    total elasped time: 5495.0407s
+
+better times: 1
+learning rate: 0.001
+1400/546518 (epoch 0.512) 
+average loss in the last 100 ( 1301 --  1400) iterations = 1.29823002 
+validation set loss = 1.22177641, validation accuracy= 1.10528058
+elasped time in the last 6400 iterations: 437.6106s,    total elasped time: 5932.6513s
+
+better times: 2
+learning rate: 0.001
+1500/546518 (epoch 0.549) 
+average loss in the last 100 ( 1401 --  1500) iterations = 1.17237226 
+validation set loss = 1.36965090, validation accuracy= 1.17032085
+elasped time in the last 6400 iterations: 432.2105s,    total elasped time: 6364.8618s
+
+better times: 0
+learning rate: 0.001
+1600/546518 (epoch 0.586) 
+average loss in the last 100 ( 1501 --  1600) iterations = 1.18832389 
+validation set loss = 1.19342916, validation accuracy= 1.09236218
+elasped time in the last 6400 iterations: 407.3943s,    total elasped time: 6772.2562s
+
+better times: 1
+learning rate: 0.001
+1700/546518 (epoch 0.622) 
+average loss in the last 100 ( 1601 --  1700) iterations = 1.23381248 
+validation set loss = 1.23358059, validation accuracy= 1.11066673
+elasped time in the last 6400 iterations: 413.8600s,    total elasped time: 7186.1162s
+
+better times: 2
+learning rate: 0.001
+1800/546518 (epoch 0.659) 
+average loss in the last 100 ( 1701 --  1800) iterations = 1.21480762 
+validation set loss = 1.24645979, validation accuracy= 1.11644854
+elasped time in the last 6400 iterations: 421.3136s,    total elasped time: 7607.4297s
+
+better times: 3
+learning rate: 0.001
+1900/546518 (epoch 0.695) 
+average loss in the last 100 ( 1801 --  1900) iterations = 1.24037911 
+validation set loss = 1.39603380, validation accuracy= 1.18153874
+elasped time in the last 6400 iterations: 426.7046s,    total elasped time: 8034.1344s
+
+better times: 4
+learning rate: 0.001
+2000/546518 (epoch 0.732) 
+average loss in the last 100 ( 1901 --  2000) iterations = 1.31771452 
+validation set loss = 1.23960722, validation accuracy= 1.11337649
+elasped time in the last 6400 iterations: 425.3120s,    total elasped time: 8459.4464s
+
+better times: 5
+learning rate: 0.001
+2100/546518 (epoch 0.769) 
+average loss in the last 100 ( 2001 --  2100) iterations = 1.19014246 
+validation set loss = 1.25910886, validation accuracy= 1.12155523
+elasped time in the last 6400 iterations: 431.6376s,    total elasped time: 8891.0840s
+
+better times: 6
+learning rate: 0.001
+2200/546518 (epoch 0.805) 
+average loss in the last 100 ( 2101 --  2200) iterations = 1.26110428 
+validation set loss = 1.23819804, validation accuracy= 1.11134358
+elasped time in the last 6400 iterations: 424.2729s,    total elasped time: 9315.3568s
+
+better times: 7
+learning rate: 0.001
+2300/546518 (epoch 0.842) 
+average loss in the last 100 ( 2201 --  2300) iterations = 1.25899830 
+validation set loss = 1.22433445, validation accuracy= 1.10435394
+elasped time in the last 6400 iterations: 376.5137s,    total elasped time: 9691.8705s
+
+better times: 8
+learning rate: 0.001
+2400/546518 (epoch 0.878) 
+average loss in the last 100 ( 2301 --  2400) iterations = 1.18859462 
+validation set loss = 1.20350060, validation accuracy= 1.09704175
+elasped time in the last 6400 iterations: 398.6051s,    total elasped time: 10090.4756s
+
+better times: 9
+learning rate: 0.001
+2500/546518 (epoch 0.915) 
+average loss in the last 100 ( 2401 --  2500) iterations = 1.20184191 
+validation set loss = 1.27203876, validation accuracy= 1.12784696
+elasped time in the last 6400 iterations: 383.0431s,    total elasped time: 10473.5187s
+
+better times: 10
+learning rate: 0.0004
+2600/546518 (epoch 0.951) 
+average loss in the last 100 ( 2501 --  2600) iterations = 1.23980352 
+validation set loss = 1.21394209, validation accuracy= 1.10178485
+elasped time in the last 6400 iterations: 416.7072s,    total elasped time: 10890.2259s
+
+better times: 11
+learning rate: 0.0004
+2700/546518 (epoch 0.988) 
+average loss in the last 100 ( 2601 --  2700) iterations = 1.18278978 
+validation set loss = 1.19577854, validation accuracy= 1.09351391
+elasped time in the last 6400 iterations: 407.5340s,    total elasped time: 11297.7599s
+
+better times: 12
+learning rate: 0.0004
+2800/546518 (epoch 1.025) 
+average loss in the last 100 ( 2701 --  2800) iterations = 1.19674643 
+validation set loss = 1.31376576, validation accuracy= 1.14067823
+elasped time in the last 6400 iterations: 387.0164s,    total elasped time: 11684.7763s
+
+better times: 0
+learning rate: 0.0004
+2900/546518 (epoch 1.061) 
+average loss in the last 100 ( 2801 --  2900) iterations = 1.21072017 
+validation set loss = 1.19113829, validation accuracy= 1.09136030
+elasped time in the last 6400 iterations: 375.4735s,    total elasped time: 12060.2498s
+
+better times: 1
+learning rate: 0.0004
+3000/546518 (epoch 1.098) 
+average loss in the last 100 ( 2901 --  3000) iterations = 1.19636233 
+validation set loss = 1.20213475, validation accuracy= 1.09641054
+elasped time in the last 6400 iterations: 360.5345s,    total elasped time: 12420.7843s
+
+better times: 2
+learning rate: 0.0004
+3100/546518 (epoch 1.134) 
+average loss in the last 100 ( 3001 --  3100) iterations = 1.19740104 
+validation set loss = 1.19853437, validation accuracy= 1.09477502
+elasped time in the last 6400 iterations: 368.6199s,    total elasped time: 12789.4042s
+
+better times: 3
+learning rate: 0.0004
+3200/546518 (epoch 1.171) 
+average loss in the last 100 ( 3101 --  3200) iterations = 1.19310680 
+validation set loss = 1.19887128, validation accuracy= 1.09492661
+elasped time in the last 6400 iterations: 375.9599s,    total elasped time: 13165.3640s
+
+better times: 4
+learning rate: 0.0004
+3300/546518 (epoch 1.208) 
+average loss in the last 100 ( 3201 --  3300) iterations = 1.18658481 
+validation set loss = 1.20474708, validation accuracy= 1.09760672
+elasped time in the last 6400 iterations: 445.0300s,    total elasped time: 13610.3940s
+
+better times: 0
+learning rate: 0.0004
+3400/546518 (epoch 1.244) 
+average loss in the last 100 ( 3301 --  3400) iterations = 1.17570150 
+validation set loss = 1.19084355, validation accuracy= 1.09125550
+elasped time in the last 6400 iterations: 486.8682s,    total elasped time: 14097.2623s
+
+better times: 1
+learning rate: 0.0004
+3500/546518 (epoch 1.281) 
+average loss in the last 100 ( 3401 --  3500) iterations = 1.18148769 
+validation set loss = 1.19108145, validation accuracy= 1.09131051
+elasped time in the last 6400 iterations: 434.8101s,    total elasped time: 14532.0723s
+
+better times: 2
+learning rate: 0.0004
+3600/546518 (epoch 1.317) 
+average loss in the last 100 ( 3501 --  3600) iterations = 1.20342435 
+validation set loss = 1.20011811, validation accuracy= 1.09549902
+elasped time in the last 6400 iterations: 391.5857s,    total elasped time: 14923.6580s
+
+better times: 3
+learning rate: 0.0004
+3700/546518 (epoch 1.354) 
+average loss in the last 100 ( 3601 --  3700) iterations = 1.20483551 
+validation set loss = 1.19092978, validation accuracy= 1.09129729
+elasped time in the last 6400 iterations: 376.3399s,    total elasped time: 15299.9979s
+
+better times: 0
+learning rate: 0.0004
+3800/546518 (epoch 1.391) 
+average loss in the last 100 ( 3701 --  3800) iterations = 1.16100129 
+validation set loss = 1.18860084, validation accuracy= 1.09006548
+elasped time in the last 6400 iterations: 381.3110s,    total elasped time: 15681.3089s
+
+better times: 1
+learning rate: 0.0004
+3900/546518 (epoch 1.427) 
+average loss in the last 100 ( 3801 --  3900) iterations = 1.17730489 
+validation set loss = 1.19201280, validation accuracy= 1.09178120
+elasped time in the last 6400 iterations: 369.5140s,    total elasped time: 16050.8230s
+
+better times: 2
+learning rate: 0.0004
+4000/546518 (epoch 1.464) 
+average loss in the last 100 ( 3901 --  4000) iterations = 1.17620518 
+validation set loss = 1.20853483, validation accuracy= 1.09930396
+elasped time in the last 6400 iterations: 398.8557s,    total elasped time: 16449.6787s
+
+better times: 3
+learning rate: 0.0004
+4100/546518 (epoch 1.500) 
+average loss in the last 100 ( 4001 --  4100) iterations = 1.24003899 
+validation set loss = 1.20265245, validation accuracy= 1.09640191
+elasped time in the last 6400 iterations: 392.7400s,    total elasped time: 16842.4187s
+
+better times: 4
+learning rate: 0.0004
+4200/546518 (epoch 1.537) 
+average loss in the last 100 ( 4101 --  4200) iterations = 1.15594532 
+validation set loss = 1.21420370, validation accuracy= 1.10168494
+elasped time in the last 6400 iterations: 392.3933s,    total elasped time: 17234.8121s
+
+better times: 5
+learning rate: 0.0004
+4300/546518 (epoch 1.574) 
+average loss in the last 100 ( 4201 --  4300) iterations = 1.20749224 
+validation set loss = 1.19495816, validation accuracy= 1.09295210
+elasped time in the last 6400 iterations: 395.5578s,    total elasped time: 17630.3698s
+
+better times: 0
+learning rate: 0.0004
+4400/546518 (epoch 1.610) 
+average loss in the last 100 ( 4301 --  4400) iterations = 1.16695884 
+validation set loss = 1.18717955, validation accuracy= 1.08957006
+elasped time in the last 6400 iterations: 395.7721s,    total elasped time: 18026.1420s
+
+better times: 1
+learning rate: 0.0004
+4500/546518 (epoch 1.647) 
+average loss in the last 100 ( 4401 --  4500) iterations = 1.17801957 
+validation set loss = 1.20596438, validation accuracy= 1.09816381
+elasped time in the last 6400 iterations: 390.6049s,    total elasped time: 18416.7469s
+
+better times: 2
+learning rate: 0.0004
+4600/546518 (epoch 1.683) 
+average loss in the last 100 ( 4501 --  4600) iterations = 1.19617085 
+validation set loss = 1.19217854, validation accuracy= 1.09170779
+elasped time in the last 6400 iterations: 404.3706s,    total elasped time: 18821.1175s
+
+better times: 3
+learning rate: 0.0004
+4700/546518 (epoch 1.720) 
+average loss in the last 100 ( 4601 --  4700) iterations = 1.20173811 
+validation set loss = 1.19902650, validation accuracy= 1.09496947
+elasped time in the last 6400 iterations: 398.8080s,    total elasped time: 19219.9255s
+
+better times: 4
+learning rate: 0.0004
+4800/546518 (epoch 1.757) 
+average loss in the last 100 ( 4701 --  4800) iterations = 1.22263166 
+validation set loss = 1.19217126, validation accuracy= 1.09177126
+elasped time in the last 6400 iterations: 419.9777s,    total elasped time: 19639.9032s
+
+better times: 5
+learning rate: 0.0004
+4900/546518 (epoch 1.793) 
+average loss in the last 100 ( 4801 --  4900) iterations = 1.18481953 
+validation set loss = 1.19461056, validation accuracy= 1.09298202
+elasped time in the last 6400 iterations: 405.1895s,    total elasped time: 20045.0927s
+
+better times: 6
+learning rate: 0.0004
+5000/546518 (epoch 1.830) 
+average loss in the last 100 ( 4901 --  5000) iterations = 1.19027112 
+validation set loss = 1.18921706, validation accuracy= 1.09050465
+elasped time in the last 6400 iterations: 398.6762s,    total elasped time: 20443.7690s
+
+better times: 0
+learning rate: 0.0004
+5100/546518 (epoch 1.866) 
+average loss in the last 100 ( 5001 --  5100) iterations = 1.15101781 
+validation set loss = 1.18521724, validation accuracy= 1.08867089
+elasped time in the last 6400 iterations: 409.9909s,    total elasped time: 20853.7599s
+
+better times: 1
+learning rate: 0.0004
+5200/546518 (epoch 1.903) 
+average loss in the last 100 ( 5101 --  5200) iterations = 1.18100063 
+validation set loss = 1.19022114, validation accuracy= 1.09093623
+elasped time in the last 6400 iterations: 413.4063s,    total elasped time: 21267.1661s
+
+better times: 2
+learning rate: 0.0004
+5300/546518 (epoch 1.940) 
+average loss in the last 100 ( 5201 --  5300) iterations = 1.18971059 
+validation set loss = 1.22427700, validation accuracy= 1.10624722
+elasped time in the last 6400 iterations: 415.4045s,    total elasped time: 21682.5707s
+
+better times: 3
+learning rate: 0.0004
+5400/546518 (epoch 1.976) 
+average loss in the last 100 ( 5301 --  5400) iterations = 1.19527566 
+validation set loss = 1.19158848, validation accuracy= 1.09159904
+elasped time in the last 6400 iterations: 417.5342s,    total elasped time: 22100.1049s
+
+better times: 4
+learning rate: 0.0004
+5500/546518 (epoch 2.013) 
+average loss in the last 100 ( 5401 --  5500) iterations = 1.18897884 
+validation set loss = 1.20192734, validation accuracy= 1.09632447
+elasped time in the last 6400 iterations: 424.8877s,    total elasped time: 22524.9925s
+
+better times: 5
+learning rate: 0.0004
+5600/546518 (epoch 2.049) 
+average loss in the last 100 ( 5501 --  5600) iterations = 1.14070653 
+validation set loss = 1.19044745, validation accuracy= 1.09107616
+elasped time in the last 6400 iterations: 401.8605s,    total elasped time: 22926.8530s
+
+better times: 6
+learning rate: 0.0004
+5700/546518 (epoch 2.086) 
+average loss in the last 100 ( 5601 --  5700) iterations = 1.19358644 
+validation set loss = 1.19258313, validation accuracy= 1.09150916
+elasped time in the last 6400 iterations: 400.8848s,    total elasped time: 23327.7379s
+
+better times: 7
+learning rate: 0.0004
+5800/546518 (epoch 2.123) 
+average loss in the last 100 ( 5701 --  5800) iterations = 1.13718338 
+validation set loss = 1.19264740, validation accuracy= 1.09208396
+elasped time in the last 6400 iterations: 411.6322s,    total elasped time: 23739.3701s
+
+better times: 8
+learning rate: 0.0004
+5900/546518 (epoch 2.159) 
+average loss in the last 100 ( 5801 --  5900) iterations = 1.17185280 
+validation set loss = 1.18908042, validation accuracy= 1.09042659
+elasped time in the last 6400 iterations: 411.5174s,    total elasped time: 24150.8875s
+
+better times: 9
+learning rate: 0.0004
+6000/546518 (epoch 2.196) 
+average loss in the last 100 ( 5901 --  6000) iterations = 1.19220541 
+validation set loss = 1.19309476, validation accuracy= 1.09222810
+elasped time in the last 6400 iterations: 400.2377s,    total elasped time: 24551.1252s
+
+better times: 10
+learning rate: 0.00016
+6100/546518 (epoch 2.232) 
+average loss in the last 100 ( 6001 --  6100) iterations = 1.15302747 
+validation set loss = 1.19937928, validation accuracy= 1.09516176
+elasped time in the last 6400 iterations: 403.7065s,    total elasped time: 24954.8317s
+
+better times: 11
+learning rate: 0.00016
+6200/546518 (epoch 2.269) 
+average loss in the last 100 ( 6101 --  6200) iterations = 1.15503807 
+validation set loss = 1.19144472, validation accuracy= 1.09153273
+elasped time in the last 6400 iterations: 417.9660s,    total elasped time: 25372.7977s
+
+better times: 12
+learning rate: 0.00016
+6300/546518 (epoch 2.306) 
+average loss in the last 100 ( 6201 --  6300) iterations = 1.21347028 
+validation set loss = 1.19347094, validation accuracy= 1.09236605
+elasped time in the last 6400 iterations: 408.6284s,    total elasped time: 25781.4261s
+
+better times: 13
+learning rate: 0.00016
+6400/546518 (epoch 2.342) 
+average loss in the last 100 ( 6301 --  6400) iterations = 1.19884762 
+validation set loss = 1.18640357, validation accuracy= 1.08921074
+elasped time in the last 6400 iterations: 408.2180s,    total elasped time: 26189.6441s
+
+better times: 0
+learning rate: 0.00016
+6500/546518 (epoch 2.379) 
+average loss in the last 100 ( 6401 --  6500) iterations = 1.14352880 
+validation set loss = 1.18371083, validation accuracy= 1.08796658
+elasped time in the last 6400 iterations: 409.2700s,    total elasped time: 26598.9141s
+
+better times: 1
+learning rate: 0.00016
+6600/546518 (epoch 2.415) 
+average loss in the last 100 ( 6501 --  6600) iterations = 1.20996016 
+validation set loss = 1.18508548, validation accuracy= 1.08861444
+elasped time in the last 6400 iterations: 403.6219s,    total elasped time: 27002.5360s
+
+better times: 2
+learning rate: 0.00016
+6700/546518 (epoch 2.452) 
+average loss in the last 100 ( 6601 --  6700) iterations = 1.20131053 
+validation set loss = 1.18585662, validation accuracy= 1.08896807
+elasped time in the last 6400 iterations: 418.9850s,    total elasped time: 27421.5210s
+
+better times: 3
+learning rate: 0.00016
+6800/546518 (epoch 2.488) 
+average loss in the last 100 ( 6701 --  6800) iterations = 1.17407993 
+validation set loss = 1.18419865, validation accuracy= 1.08820821
+elasped time in the last 6400 iterations: 391.6645s,    total elasped time: 27813.1854s
+
+better times: 4
+learning rate: 0.00016
+6900/546518 (epoch 2.525) 
+average loss in the last 100 ( 6801 --  6900) iterations = 1.16807052 
+validation set loss = 1.18429560, validation accuracy= 1.08821204
+elasped time in the last 6400 iterations: 401.3986s,    total elasped time: 28214.5841s
+
+better times: 5
+learning rate: 0.00016
+7000/546518 (epoch 2.562) 
+average loss in the last 100 ( 6901 --  7000) iterations = 1.18019520 
+validation set loss = 1.18800584, validation accuracy= 1.08984235
+elasped time in the last 6400 iterations: 403.3455s,    total elasped time: 28617.9296s
+
+better times: 6
+learning rate: 0.00016
+7100/546518 (epoch 2.598) 
+average loss in the last 100 ( 7001 --  7100) iterations = 1.18799600 
+validation set loss = 1.18512725, validation accuracy= 1.08850176
+elasped time in the last 6400 iterations: 436.4929s,    total elasped time: 29054.4224s
+
+better times: 7
+learning rate: 0.00016
+7200/546518 (epoch 2.635) 
+average loss in the last 100 ( 7101 --  7200) iterations = 1.13287060 
+validation set loss = 1.19206968, validation accuracy= 1.09170556
+elasped time in the last 6400 iterations: 406.7740s,    total elasped time: 29461.1965s
+
+better times: 8
+learning rate: 0.00016
+7300/546518 (epoch 2.671) 
+average loss in the last 100 ( 7201 --  7300) iterations = 1.21118904 
+validation set loss = 1.18766931, validation accuracy= 1.08975769
+elasped time in the last 6400 iterations: 386.0657s,    total elasped time: 29847.2621s
+
+better times: 9
+learning rate: 0.00016
+7400/546518 (epoch 2.708) 
+average loss in the last 100 ( 7301 --  7400) iterations = 1.15381427 
+validation set loss = 1.18561157, validation accuracy= 1.08869447
+elasped time in the last 6400 iterations: 400.4609s,    total elasped time: 30247.7230s
+
+better times: 10
+learning rate: 6.4e-05
+7500/546518 (epoch 2.745) 
+average loss in the last 100 ( 7401 --  7500) iterations = 1.17127921 
+validation set loss = 1.18759801, validation accuracy= 1.08957353
+elasped time in the last 6400 iterations: 398.9774s,    total elasped time: 30646.7004s
+
+better times: 11
+learning rate: 6.4e-05
+7600/546518 (epoch 2.781) 
+average loss in the last 100 ( 7501 --  7600) iterations = 1.15822034 
+validation set loss = 1.18389617, validation accuracy= 1.08806964
+elasped time in the last 6400 iterations: 411.5862s,    total elasped time: 31058.2867s
+
+better times: 0
+learning rate: 6.4e-05
+7700/546518 (epoch 2.818) 
+average loss in the last 100 ( 7601 --  7700) iterations = 1.15361362 
+validation set loss = 1.18355626, validation accuracy= 1.08791315
+elasped time in the last 6400 iterations: 411.3631s,    total elasped time: 31469.6498s
+
+better times: 1
+learning rate: 6.4e-05
+7800/546518 (epoch 2.854) 
+average loss in the last 100 ( 7701 --  7800) iterations = 1.15777285 
+validation set loss = 1.18624613, validation accuracy= 1.08914702
+elasped time in the last 6400 iterations: 408.4055s,    total elasped time: 31878.0552s
+
+better times: 2
+learning rate: 6.4e-05
+7900/546518 (epoch 2.891) 
+average loss in the last 100 ( 7801 --  7900) iterations = 1.16136583 
+validation set loss = 1.18661731, validation accuracy= 1.08931780
+elasped time in the last 6400 iterations: 407.0976s,    total elasped time: 32285.1528s
+
+better times: 3
+learning rate: 6.4e-05
+8000/546518 (epoch 2.928) 
+average loss in the last 100 ( 7901 --  8000) iterations = 1.17783457 
+validation set loss = 1.18360539, validation accuracy= 1.08793574
+elasped time in the last 6400 iterations: 403.9622s,    total elasped time: 32689.1150s
+
+better times: 4
+learning rate: 6.4e-05
+8100/546518 (epoch 2.964) 
+average loss in the last 100 ( 8001 --  8100) iterations = 1.15646274 
+validation set loss = 1.18412973, validation accuracy= 1.08817117
+elasped time in the last 6400 iterations: 417.6467s,    total elasped time: 33106.7616s
+
+better times: 5
+learning rate: 6.4e-05
+8200/546518 (epoch 3.001) 
+average loss in the last 100 ( 8101 --  8200) iterations = 1.17778775 
+validation set loss = 1.18533277, validation accuracy= 1.08872623
+elasped time in the last 6400 iterations: 415.7320s,    total elasped time: 33522.4936s
+
+better times: 0
+learning rate: 6.4e-05
+8300/546518 (epoch 3.037) 
+average loss in the last 100 ( 8201 --  8300) iterations = 1.14081240 
+validation set loss = 1.18322582, validation accuracy= 1.08775526
+elasped time in the last 6400 iterations: 405.9205s,    total elasped time: 33928.4142s
+
+better times: 1
+learning rate: 6.4e-05
+8400/546518 (epoch 3.074) 
+average loss in the last 100 ( 8301 --  8400) iterations = 1.22212871 
+validation set loss = 1.18353836, validation accuracy= 1.08790272
+elasped time in the last 6400 iterations: 403.3965s,    total elasped time: 34331.8107s
+
+better times: 2
+learning rate: 6.4e-05
+8500/546518 (epoch 3.111) 
+average loss in the last 100 ( 8401 --  8500) iterations = 1.16144052 
+validation set loss = 1.18502585, validation accuracy= 1.08858698
+elasped time in the last 6400 iterations: 399.2086s,    total elasped time: 34731.0192s
+
+better times: 3
+learning rate: 6.4e-05
+8600/546518 (epoch 3.147) 
+average loss in the last 100 ( 8501 --  8600) iterations = 1.13414406 
+validation set loss = 1.18333889, validation accuracy= 1.08780953
+elasped time in the last 6400 iterations: 395.5498s,    total elasped time: 35126.5690s
+
+better times: 4
+learning rate: 6.4e-05
+8700/546518 (epoch 3.184) 
+average loss in the last 100 ( 8601 --  8700) iterations = 1.17107734 
+validation set loss = 1.18516012, validation accuracy= 1.08864862
+elasped time in the last 6400 iterations: 428.6145s,    total elasped time: 35555.1835s
+
+better times: 5
+learning rate: 6.4e-05
+8800/546518 (epoch 3.220) 
+average loss in the last 100 ( 8701 --  8800) iterations = 1.17559836 
+validation set loss = 1.18541970, validation accuracy= 1.08876506
+elasped time in the last 6400 iterations: 426.1962s,    total elasped time: 35981.3797s
+
+better times: 6
+learning rate: 6.4e-05
+8900/546518 (epoch 3.257) 
+average loss in the last 100 ( 8801 --  8900) iterations = 1.14322428 
+validation set loss = 1.18456372, validation accuracy= 1.08837550
+elasped time in the last 6400 iterations: 415.0274s,    total elasped time: 36396.4072s
+
+better times: 7
+learning rate: 6.4e-05
+9000/546518 (epoch 3.294) 
+average loss in the last 100 ( 8901 --  9000) iterations = 1.14041592 
+validation set loss = 1.18419366, validation accuracy= 1.08820546
+elasped time in the last 6400 iterations: 407.7988s,    total elasped time: 36804.2060s
+
+better times: 8
+learning rate: 6.4e-05
+9100/546518 (epoch 3.330) 
+average loss in the last 100 ( 9001 --  9100) iterations = 1.14881153 
+validation set loss = 1.18443058, validation accuracy= 1.08831473
+elasped time in the last 6400 iterations: 413.5904s,    total elasped time: 37217.7964s
+
+better times: 9
+learning rate: 6.4e-05
+9200/546518 (epoch 3.367) 
+average loss in the last 100 ( 9101 --  9200) iterations = 1.12038555 
+validation set loss = 1.18481131, validation accuracy= 1.08846791
+elasped time in the last 6400 iterations: 407.9312s,    total elasped time: 37625.7276s
+
+better times: 10
+learning rate: 2.56e-05
+9300/546518 (epoch 3.403) 
+average loss in the last 100 ( 9201 --  9300) iterations = 1.12711572 
+validation set loss = 1.18541778, validation accuracy= 1.08875198
+elasped time in the last 6400 iterations: 400.9428s,    total elasped time: 38026.6704s
+
+better times: 0
+learning rate: 2.56e-05
+9400/546518 (epoch 3.440) 
+average loss in the last 100 ( 9301 --  9400) iterations = 1.16247032 
+validation set loss = 1.18297177, validation accuracy= 1.08763879
+elasped time in the last 6400 iterations: 400.1839s,    total elasped time: 38426.8542s
+
+better times: 0
+learning rate: 2.56e-05
+9500/546518 (epoch 3.477) 
+average loss in the last 100 ( 9401 --  9500) iterations = 1.16759224 
+validation set loss = 1.18285356, validation accuracy= 1.08758509
+elasped time in the last 6400 iterations: 421.1516s,    total elasped time: 38848.0058s
+
+better times: 1
+learning rate: 2.56e-05
+9600/546518 (epoch 3.513) 
+average loss in the last 100 ( 9501 --  9600) iterations = 1.16023189 
+validation set loss = 1.18515229, validation accuracy= 1.08864161
+elasped time in the last 6400 iterations: 380.1821s,    total elasped time: 39228.1879s
+
+better times: 2
+learning rate: 2.56e-05
+9700/546518 (epoch 3.550) 
+average loss in the last 100 ( 9601 --  9700) iterations = 1.18607619 
+validation set loss = 1.18363043, validation accuracy= 1.08794349
+elasped time in the last 6400 iterations: 395.4488s,    total elasped time: 39623.6367s
+
+better times: 3
+learning rate: 2.56e-05
+9800/546518 (epoch 3.586) 
+average loss in the last 100 ( 9701 --  9800) iterations = 1.17785724 
+validation set loss = 1.18342254, validation accuracy= 1.08784823
+elasped time in the last 6400 iterations: 398.3350s,    total elasped time: 40021.9717s
+
+better times: 4
+learning rate: 2.56e-05
+9900/546518 (epoch 3.623) 
+average loss in the last 100 ( 9801 --  9900) iterations = 1.19539214 
+validation set loss = 1.18304169, validation accuracy= 1.08767306
+elasped time in the last 6400 iterations: 417.1504s,    total elasped time: 40439.1221s
+
+better times: 5
+learning rate: 2.56e-05
+10000/546518 (epoch 3.660) 
+average loss in the last 100 ( 9901 -- 10000) iterations = 1.15036204 
+validation set loss = 1.18303715, validation accuracy= 1.08767016
+elasped time in the last 6400 iterations: 428.1498s,    total elasped time: 40867.2720s
+
+better times: 0
+learning rate: 2.56e-05
+10100/546518 (epoch 3.696) 
+average loss in the last 100 (10001 -- 10100) iterations = 1.16491041 
+validation set loss = 1.18266573, validation accuracy= 1.08749938
+elasped time in the last 6400 iterations: 423.1913s,    total elasped time: 41290.4632s
+
+better times: 1
+learning rate: 2.56e-05
+10200/546518 (epoch 3.733) 
+average loss in the last 100 (10101 -- 10200) iterations = 1.12832327 
+validation set loss = 1.18323235, validation accuracy= 1.08775962
+elasped time in the last 6400 iterations: 419.2088s,    total elasped time: 41709.6721s
+
+better times: 2
+learning rate: 2.56e-05
+10300/546518 (epoch 3.769) 
+average loss in the last 100 (10201 -- 10300) iterations = 1.19202744 
+validation set loss = 1.18285325, validation accuracy= 1.08758666
+elasped time in the last 6400 iterations: 423.0093s,    total elasped time: 42132.6814s
+
+better times: 3
+learning rate: 2.56e-05
+10400/546518 (epoch 3.806) 
+average loss in the last 100 (10301 -- 10400) iterations = 1.19291728 
+validation set loss = 1.18457588, validation accuracy= 1.08837947
+elasped time in the last 6400 iterations: 426.4092s,    total elasped time: 42559.0906s
+
+better times: 4
+learning rate: 2.56e-05
+10500/546518 (epoch 3.843) 
+average loss in the last 100 (10401 -- 10500) iterations = 1.13935415 
+validation set loss = 1.18320717, validation accuracy= 1.08774569
+elasped time in the last 6400 iterations: 416.5533s,    total elasped time: 42975.6439s
+
+better times: 5
+learning rate: 2.56e-05
+10600/546518 (epoch 3.879) 
+average loss in the last 100 (10501 -- 10600) iterations = 1.16730757 
+validation set loss = 1.18308329, validation accuracy= 1.08768718
+elasped time in the last 6400 iterations: 426.4117s,    total elasped time: 43402.0555s
+
+better times: 0
+learning rate: 2.56e-05
+10700/546518 (epoch 3.916) 
+average loss in the last 100 (10601 -- 10700) iterations = 1.18720755 
+validation set loss = 1.18245689, validation accuracy= 1.08740246
+elasped time in the last 6400 iterations: 416.8477s,    total elasped time: 43818.9033s
+
+better times: 1
+learning rate: 2.56e-05
+10800/546518 (epoch 3.952) 
+average loss in the last 100 (10701 -- 10800) iterations = 1.14315353 
+validation set loss = 1.18315364, validation accuracy= 1.08772510
+elasped time in the last 6400 iterations: 399.5989s,    total elasped time: 44218.5021s
+
+better times: 0
+learning rate: 2.56e-05
+10900/546518 (epoch 3.989) 
+average loss in the last 100 (10801 -- 10900) iterations = 1.14575113 
+validation set loss = 1.18230820, validation accuracy= 1.08733559
+elasped time in the last 6400 iterations: 411.2997s,    total elasped time: 44629.8018s
+
+better times: 1
+learning rate: 2.56e-05
+11000/546518 (epoch 4.025) 
+average loss in the last 100 (10901 -- 11000) iterations = 1.16715487 
+validation set loss = 1.18426586, validation accuracy= 1.08822703
+elasped time in the last 6400 iterations: 407.3744s,    total elasped time: 45037.1762s
+
+better times: 0
+learning rate: 2.56e-05
+11100/546518 (epoch 4.062) 
+average loss in the last 100 (11001 -- 11100) iterations = 1.15608564 
+validation set loss = 1.18222538, validation accuracy= 1.08729893
+elasped time in the last 6400 iterations: 416.3924s,    total elasped time: 45453.5686s
+
+better times: 1
+learning rate: 2.56e-05
+11200/546518 (epoch 4.099) 
+average loss in the last 100 (11101 -- 11200) iterations = 1.16932834 
+validation set loss = 1.18299311, validation accuracy= 1.08765243
+elasped time in the last 6400 iterations: 416.4675s,    total elasped time: 45870.0361s
+
+better times: 2
+learning rate: 2.56e-05
+11300/546518 (epoch 4.135) 
+average loss in the last 100 (11201 -- 11300) iterations = 1.15835036 
+validation set loss = 1.18265209, validation accuracy= 1.08749549
+elasped time in the last 6400 iterations: 418.5472s,    total elasped time: 46288.5833s
+
+better times: 3
+learning rate: 2.56e-05
+11400/546518 (epoch 4.172) 
+average loss in the last 100 (11301 -- 11400) iterations = 1.13573980 
+validation set loss = 1.18263589, validation accuracy= 1.08748810
+elasped time in the last 6400 iterations: 414.1942s,    total elasped time: 46702.7775s
+
+better times: 4
+learning rate: 2.56e-05
+11500/546518 (epoch 4.208) 
+average loss in the last 100 (11401 -- 11500) iterations = 1.19798869 
+validation set loss = 1.18435515, validation accuracy= 1.08827937
+elasped time in the last 6400 iterations: 413.0297s,    total elasped time: 47115.8072s
+
+better times: 5
+learning rate: 2.56e-05
+11600/546518 (epoch 4.245) 
+average loss in the last 100 (11501 -- 11600) iterations = 1.15722481 
+validation set loss = 1.18361528, validation accuracy= 1.08793700
+elasped time in the last 6400 iterations: 418.2043s,    total elasped time: 47534.0116s
+
+better times: 6
+learning rate: 2.56e-05
+11700/546518 (epoch 4.282) 
+average loss in the last 100 (11601 -- 11700) iterations = 1.14268312 
+validation set loss = 1.18354968, validation accuracy= 1.08790704
+elasped time in the last 6400 iterations: 423.9021s,    total elasped time: 47957.9137s
+
+better times: 7
+learning rate: 2.56e-05
+11800/546518 (epoch 4.318) 
+average loss in the last 100 (11701 -- 11800) iterations = 1.18794633 
+validation set loss = 1.18236523, validation accuracy= 1.08736299
+elasped time in the last 6400 iterations: 409.1554s,    total elasped time: 48367.0690s
+
+better times: 0
+learning rate: 2.56e-05
+11900/546518 (epoch 4.355) 
+average loss in the last 100 (11801 -- 11900) iterations = 1.16995283 
+validation set loss = 1.18170921, validation accuracy= 1.08706038
+elasped time in the last 6400 iterations: 409.1282s,    total elasped time: 48776.1973s
+
+better times: 1
+learning rate: 2.56e-05
+12000/546518 (epoch 4.391) 
+average loss in the last 100 (11901 -- 12000) iterations = 1.13749413 
+validation set loss = 1.18254587, validation accuracy= 1.08744655
+elasped time in the last 6400 iterations: 396.2462s,    total elasped time: 49172.4434s
+
+better times: 2
+learning rate: 2.56e-05
+12100/546518 (epoch 4.428) 
+average loss in the last 100 (12001 -- 12100) iterations = 1.18575446 
+validation set loss = 1.18447806, validation accuracy= 1.08833067
+elasped time in the last 6400 iterations: 410.4230s,    total elasped time: 49582.8664s
+
+better times: 3
+learning rate: 2.56e-05
+12200/546518 (epoch 4.465) 
+average loss in the last 100 (12101 -- 12200) iterations = 1.15203636 
+validation set loss = 1.18265401, validation accuracy= 1.08749690
+elasped time in the last 6400 iterations: 381.7864s,    total elasped time: 49964.6529s
+
+better times: 4
+learning rate: 2.56e-05
+12300/546518 (epoch 4.501) 
+average loss in the last 100 (12201 -- 12300) iterations = 1.15340209 
+validation set loss = 1.18298235, validation accuracy= 1.08764510
+elasped time in the last 6400 iterations: 392.7232s,    total elasped time: 50357.3761s
+
+better times: 5
+learning rate: 2.56e-05
+12400/546518 (epoch 4.538) 
+average loss in the last 100 (12301 -- 12400) iterations = 1.19195990 
+validation set loss = 1.18352150, validation accuracy= 1.08789579
+elasped time in the last 6400 iterations: 411.8134s,    total elasped time: 50769.1895s
+
+better times: 6
+learning rate: 2.56e-05
+12500/546518 (epoch 4.574) 
+average loss in the last 100 (12401 -- 12500) iterations = 1.17591540 
+validation set loss = 1.18192240, validation accuracy= 1.08715839
+elasped time in the last 6400 iterations: 409.8603s,    total elasped time: 51179.0498s
+
+better times: 7
+learning rate: 2.56e-05
+12600/546518 (epoch 4.611) 
+average loss in the last 100 (12501 -- 12600) iterations = 1.16830814 
+validation set loss = 1.18228235, validation accuracy= 1.08731801
+elasped time in the last 6400 iterations: 374.6171s,    total elasped time: 51553.6669s
+
+better times: 8
+learning rate: 2.56e-05
+12700/546518 (epoch 4.648) 
+average loss in the last 100 (12601 -- 12700) iterations = 1.15745344 
+validation set loss = 1.18385777, validation accuracy= 1.08803976
+elasped time in the last 6400 iterations: 405.4501s,    total elasped time: 51959.1170s
+
+better times: 9
+learning rate: 2.56e-05
+12800/546518 (epoch 4.684) 
+average loss in the last 100 (12701 -- 12800) iterations = 1.15825623 
+validation set loss = 1.18202102, validation accuracy= 1.08719866
+elasped time in the last 6400 iterations: 414.3148s,    total elasped time: 52373.4318s
+
+better times: 0
+learning rate: 2.56e-05
+12900/546518 (epoch 4.721) 
+average loss in the last 100 (12801 -- 12900) iterations = 1.17996849 
+validation set loss = 1.18172008, validation accuracy= 1.08705778
+elasped time in the last 6400 iterations: 406.0948s,    total elasped time: 52779.5266s
+
+better times: 1
+learning rate: 2.56e-05
+13000/546518 (epoch 4.757) 
+average loss in the last 100 (12901 -- 13000) iterations = 1.16248271 
+validation set loss = 1.18254131, validation accuracy= 1.08742404
+elasped time in the last 6400 iterations: 390.6421s,    total elasped time: 53170.1687s
+
+better times: 2
+learning rate: 2.56e-05
+13100/546518 (epoch 4.794) 
+average loss in the last 100 (13001 -- 13100) iterations = 1.08539167 
+validation set loss = 1.18374815, validation accuracy= 1.08798545
+elasped time in the last 6400 iterations: 391.6635s,    total elasped time: 53561.8322s
+
+better times: 3
+learning rate: 2.56e-05
+13200/546518 (epoch 4.831) 
+average loss in the last 100 (13101 -- 13200) iterations = 1.15021552 
+validation set loss = 1.18206162, validation accuracy= 1.08722039
+elasped time in the last 6400 iterations: 417.0875s,    total elasped time: 53978.9197s
+
+better times: 4
+learning rate: 2.56e-05
+13300/546518 (epoch 4.867) 
+average loss in the last 100 (13201 -- 13300) iterations = 1.20398402 
+validation set loss = 1.18273901, validation accuracy= 1.08753392
+elasped time in the last 6400 iterations: 433.3581s,    total elasped time: 54412.2778s
+
+better times: 5
+learning rate: 2.56e-05
+13400/546518 (epoch 4.904) 
+average loss in the last 100 (13301 -- 13400) iterations = 1.15570958 
+validation set loss = 1.18191922, validation accuracy= 1.08715444
+elasped time in the last 6400 iterations: 424.2766s,    total elasped time: 54836.5544s
+
